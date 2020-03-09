@@ -1,14 +1,14 @@
 ark:
   container_name: ark
-  image: turzam/ark
+  image: btk7/ark
   environment:
-    - SESSIONNAME=Ark Docker
-    - SERVERMAP=TheIsland
+    - SESSIONNAME=Ark Ragnarok Docker
+    - SERVERMAP=Ragnarok
     - SERVERPASSWORD="" 
-    - ADMINPASSWORD=adminpassword
+    - ADMINPASSWORD=theRagnarokPassword
     - BACKUPONSTART=1
     - UPDATEONSTART=1
-    - TZ=Europe/Paris
+    - TZ=America/New_York
     - GID=1000
     - UID=1000
   volumes:
